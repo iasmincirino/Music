@@ -7,8 +7,8 @@
 }
 
 body{
-    background: #b6947a;
-    color: #0e0d0d;
+    background: #29241d;
+    color: #fff4e8;
 }
 
 a{
@@ -21,11 +21,11 @@ a{
     max-width: 300px;
     padding: 3rem 1.25rem;
     margin: 2rem auto;
-    background: #b6947a;
+    background: linear-gradient(to right top, #29241d,#1f160f);
     box-shadow: 7px 5px #2724244d;
     border-radius: 15px;
     position: relative;
-    border: solid #422607;
+    border: solid #fff4e8;
 }
 
 .header{
@@ -44,8 +44,7 @@ a{
     object-fit: cover;
     margin: 1rem auto;
     border-radius: 50%;
-    border: 2px solid #422607;
-    box-shadow: 3px 3px #2724244d;
+    border: 2px solid #fff4e8;
 }
 
 .information{
@@ -55,14 +54,14 @@ a{
 }
 
 .information h1{
-    color: black;
+    color: #fff4e8;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
 .information p{
     font-size: 1.15rem;
-    color: #0e0d0d;
+    color: #fff4e8;
 
 }
 
@@ -72,7 +71,7 @@ a{
 
 .progress-time{
     padding: 3px 5px;
-    color: #0e0d0d;
+    color: #fff4e8;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -92,13 +91,13 @@ a{
 }
 
 .button{
-    color: #0e0d0d;
+    color: #fff4e8;
     border-radius: 50%;
     margin: 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 3px 3px #2724244d;
+    border: solid #fff4e8 2px;
 }
 
 .button-sm{
@@ -121,7 +120,7 @@ a{
     width: 50%;
     height: 2px;
     margin: auto;
-    background: #0e0d0d;
+    background: #fff4e8;
     border-radius: 25px;
     position: absolute;
     transform: translate(-50% , -50%) ;
@@ -131,6 +130,7 @@ a{
 
 .playpause.active{
     box-shadow: 3px 3px #2724244d;
+    border: solid #fff4e8 2px;
 }
 
 .loop.active,
@@ -158,7 +158,7 @@ a{
     height: 3px !important;
     -webkit-appearance: none;
     border-radius: 10px;
-    background: #0e0d0d;
+    background: #fff4e8;
     z-index: 3;
     outline: none;
     position: fixed;
@@ -171,7 +171,7 @@ a{
     -webkit-appearance: none;
     width: 10px;
     height: 10px;
-    background: #0e0d0d;
+    background: #fff4e8;
     border-radius: 50%;
     cursor: pointer;
     outline: none;
@@ -186,4 +186,10 @@ label{
 
 input[type="checkbox"]{
     -webkit-appearance: none;
+}
+
+@media (max-width: 309px){
+    .seekslider{
+        margin-left: 50px;
+    }
 }
