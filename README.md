@@ -1,5 +1,6 @@
 # Player de Música
-Player de músicas clássicas com javascript
+Player de músicas clássicas com javascript <br>
+Link: https://music-classic.netlify.app/
 
 ### Tecnologias usadas:
 
@@ -11,4 +12,4 @@ Player de músicas clássicas com javascript
 
 ###
 
-![musiclas](https://user-images.githubusercontent.com/99847209/161407121-5ce4c39e-ddf9-4787-9f9e-e441c29693eb.gif)
+![music](https://user-images.githubusercontent.com/99847209/176224473-aebeee3a-212c-4be5-a14b-3b528447f21c.png)
